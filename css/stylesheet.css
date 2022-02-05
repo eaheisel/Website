@@ -3,22 +3,22 @@
 html{
 	font-size: 16px;
 }
+body{
+    font-family: 'Poppins', sans-serif;
+}
 h1{
 	font-size: 2rem;
-    font-family: 'Poppins', sans-serif;
     text-align: center;
-    letter-spacing: 2px
+    letter-spacing: 2px;
+    color: #032A40
 }
 h2{
-    font-family: 'Poppins', sans-serif;
     color: #D87A00
 }
 p {
-    font-family: arial;
     line-height: 1.6;
   }
 a{
-    font-family: 'Poppins', sans-serif;
     font-size: 16px;
 }
 a:hover{
@@ -26,11 +26,15 @@ a:hover{
 }
 
 li{
-    font-family: 'Poppins', sans-serif;
     line-height: 1.6;
 }
-#page-title{
-	color: #032A40;
+#page-title-1{
+	color: #2E7EAB;
+    font-weight: bold;
+}
+#page-title-2{
+	color: #D87A00;
+    font-weight: bold;
 }
 #img{
     border-radius: 8px;
@@ -42,23 +46,18 @@ li{
     margin-right: auto;
     width: 50%;
   }
-
-#body-html{
-    margin: 0;
-    font-family: 'Poppins', sans-serif;
-  }
   
-#ul{
+.ul-button{
     padding: 0;
     width: 100%;
     text-align: center;
   }
   
-#li{
+.li-button{
     display: inline;
   }
   
-#a{
+.a-button{
     outline: none;
     text-decoration: none;
     display: inline-block;
@@ -69,23 +68,23 @@ li{
     color: black;
   }
   
-#li:last-child a{
+.li-button:last-child{
     margin-right: 0;
   }
   
-#a:link, #a:visited, #a:focus {
+.a-button:link, .a-button:visited, .a-button:focus button {
     background: #27A0E3;
   }
   
-#a:hover {
+.a-button:hover {
     background: #E6952C;
   }
   
-#a:active {
+.a-button:active {
     background: #032A40;
     color: white;
   }
-#intro{
+.intro{
     text-align: center;
     font-size: 1.5rem;
     font-family: 'Poppins', sans-serif;
