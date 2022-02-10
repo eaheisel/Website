@@ -5,6 +5,7 @@ html{
 }
 body{
     font-family: 'Poppins', sans-serif;
+    font-size: 16px
 }
 h1{
 	font-size: 2rem;
@@ -13,7 +14,13 @@ h1{
     color: #032A40
 }
 h2{
+    font-size: 1.5rem;
     color: #D87A00
+}
+h3{
+    font-size: 1rem;
+    color:#D87A00;
+    text-align: center;
 }
 p {
     line-height: 1.6;
@@ -39,7 +46,36 @@ li{
 #img{
     border-radius: 8px;
   }
-
+  nav{
+    background-color: #032A40;
+    padding: 5px;
+  }
+  
+  nav ul{
+    list-style-type: none;
+    display: inline;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+  }
+  
+  nav a{
+    color: white;
+  }
+  
+  @media (max-width: 768px){
+    nav ul{
+      display: block;
+    }
+    nav li{
+      margin: auto;
+      padding: 10px;
+      text-align: center;
+    } 
+  }
+  
 .center {
     display: block;
     margin-left: auto;
@@ -74,15 +110,18 @@ li{
   
 .a-button:link, .a-button:visited, .a-button:focus button {
     background: #27A0E3;
+    border-radius: 15px;
   }
   
 .a-button:hover {
     background: #E6952C;
+    border-radius: 15px;
   }
   
 .a-button:active {
     background: #032A40;
     color: white;
+    border-radius: 15px;
   }
 .intro{
     text-align: center;
@@ -123,4 +162,80 @@ li{
     background: #E6952C;
     color: #27A0E3;
   }
+  .edtech{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #032A40;
+    text-align: center;
+  }
   
+  .edtech aside{
+    background-color: #E6952C;
+    border-radius: 15px;
+    width: 25%;
+    float: right;
+    padding: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  @media (max-width: 991px){
+    .edtech aside{
+      background-color: #E6952C;
+      color: #032A40;
+      float: unset;
+      width: 75%;
+      margin: 0 auto;
+      padding: 25px;
+    }}
+    
+    .ed-tech-box{
+      height: auto;
+      height: 420px;
+    }
+    
+    .box{
+      margin: 25px;
+      padding: 25px;
+      display: inline-block;
+      text-align: center;
+    }
+    
+    #box1{
+      border: 10px;
+      border-style: solid;
+      border-color: #2E7EAB;
+      border-radius: 25px;
+      width: 40%;
+    }
+    
+    #box2{
+      border: 10px;
+      border-style: solid;
+      border-color: #D87A00;
+      border-radius: 25px;
+      width: 40%;
+    }
+    
+    #box3{
+      border: 10px;
+      border-style: solid;
+      border-color: #E6952C;
+      border-radius: 25px;
+      width: 40%;
+    }
+    
+    #box4{
+      border: 10px;
+      border-style: solid;
+      border-color: #27A0E3;
+      border-radius: 25px;
+      width: 40%;
+    }
+    
+    @media (max-width: 991px){
+      .ed-tech-box{
+        float: unset;
+        width: 75%;
+        margin: 0 auto;
+        padding: 25px;
+      }}
