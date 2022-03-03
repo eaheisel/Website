@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 h1{
   font-family: 'Poppins', sans-serif;
-  color: #032A40
+  color: #312244
 }
 h2{
   font-family: 'Poppins', sans-serif;
-  color: #D87A00
+  color: #354422
 }
 h3{
   font-family: 'Poppins', sans-serif;
@@ -25,41 +25,33 @@ p{
 a{
   font-family: 'Poppins', sans-serif;
 }
-.lb-border{
-  border-color: #27A0E3; 
+.site-title{
+  border-color: #354422;
+  border-width: 10px;
+  color:#312244;
+  font-family: 'Poppins', sans-serif;
+}
+.p-border{
+  border-color: #312244;
   border-width: 5px;
 }
-.lb-button{
-  background-color: #27A0E3;
+.p-button{
+  background-color: #312244;
   color: white;
 }
-.mb-button{
-  background-color:#2E7EAB;
+.p-back{
+  background-color: #312244;
   color: white;
 }
-.mb-border{
-  border-color: #2E7EAB; 
+.g-border{
+  border-color: #354422;
   border-width: 5px;
 }
-.d-orange-back{
-  background-color: #D87A00;
-}
-.do-button{
-  background-color: #D87A00;
+.g-button{
+  background-color: #354422;
   color: white;
 }
-.do-border{
-  border-color:#D87A00;
-  border-width: 5px;
-}
-.l-orange-back{
-  background-color: #E6952C;
-}
-.lo-button{
-  background-color: #E6952C;
+.g-back{
+  background-color: #354422;
   color: white;
-}
-.lo-border{
-  border-color:#E6952C;
-  border-width: 5px;
 }
