@@ -55,3 +55,34 @@ a{
   background-color: #354422;
   color: white;
 }
+.intro{
+  text-align: center;
+  font-size: 1.75rem;
+}
+.list-table{
+  font-size: 1.4rem;
+}
+.edtech aside{
+  background-color: #354422;
+  color: white;
+  text-align: center;
+  border-radius: 15px;
+  width: 25%;
+  float: right;
+  padding: 10px;
+  margin-left: 25px;
+  margin-bottom: 10px;
+}
+@media (max-width: 767px){
+  .edtech aside{
+    background-color: #354422;
+    color: #ffffff;
+    float: unset;
+    width: 75%;
+    margin: 0 auto;
+    padding: 25px;
+  }}
+.image-parent {
+    max-width: 80px;
+}
+  
