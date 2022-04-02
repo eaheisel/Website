@@ -85,4 +85,6 @@ a{
 .image-parent {
     max-width: 80px;
 }
-  
+.hidden{
+  display: none;
+}
