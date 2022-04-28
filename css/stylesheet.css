@@ -35,6 +35,11 @@ body{
   background-color: #312244;
   color: white;
 }
+.p-button:hover{
+  background-color: white;
+  color: #312244;
+  border-color:#312244;
+}
 .p-back{
   background-color: #312244;
   color: white;
@@ -46,6 +51,11 @@ body{
 .g-button{
   background-color: #354422;
   color: white;
+}
+.g-button:hover{
+  background-color: white;
+  color: #354422;
+  border-color:#354422;
 }
 .g-back{
   background-color: #354422;
